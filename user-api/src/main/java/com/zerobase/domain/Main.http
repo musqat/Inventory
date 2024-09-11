@@ -1,0 +1,28 @@
+### 회원가입
+POST http://localhost:8081/user/register
+Content-Type: application/json
+
+{
+  "email": "zerobase@naver.com",
+  "name": "han",
+  "password": "1234"
+}
+
+
+### 로그인
+POST http://localhost:8081/user/login
+Content-Type: application/json
+
+{
+  "email": "hjs13@naver.com",
+  "password": "1234"
+}
+
+### 로그아웃
+POST http://localhost:8081/user/logout
+Content-Type: application/json
+
+{
+  "email": "hjs13@naver.com"
+}
+
